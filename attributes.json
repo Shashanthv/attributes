@@ -1,0 +1,416 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-05",
+  
+  "genders": [
+    { "code": "Men", "label": "Men" },
+    { "code": "Women", "label": "Women" },
+    { "code": "Boy", "label": "Boys" },
+    { "code": "Girl", "label": "Girls" },
+    { "code": "Unisex", "label": "Unisex" }
+  ],
+
+  "categories": {
+    "Men": [
+      "T-Shirts", "Shirts", "Kurtas", "Jackets", "Blazers", "Sweaters", "Hoodies",
+      "Jeans", "Trousers", "Chinos", "Shorts", "Joggers", "Track Pants",
+      "Innerwear", "Vests", "Boxers", "Shoes", "Belts", "Caps", "Watches",
+      "Sunglasses", "Wallets", "Ties", "Bags", "Socks", "Accessories"
+    ],
+    "Women": [
+      "T-Shirts", "Tops", "Shirts", "Blouses", "Crop Tops", "Kurtis", "Tunics",
+      "Dresses", "Gowns", "Sarees", "Saree Blouse", "Lehengas", "Salwar Suits",
+      "Sweaters", "Hoodies", "Jeans", "Trousers", "Leggings", "Jeggings",
+      "Palazzo", "Skirts", "Shorts", "Innerwear", "Shoes", "Jewelry",
+      "Handbags", "Belts", "Sunglasses", "Hair Accessories", "Dupattas",
+      "Watches", "Rings", "Bangles", "Bags", "Socks", "Accessories"
+    ],
+    "Boy": [
+      "T-Shirts", "Shirts", "Kurtas", "Sweatshirts", "Hoodies", "Jeans", "Pants",
+      "Shorts", "Track Pants", "Ethnic Wear", "Shoes", "Caps", "Bags",
+      "Watches", "Hairbands", "Socks", "Accessories"
+    ],
+    "Girl": [
+      "T-Shirts", "Tops", "Dresses", "Frocks", "Kurtis", "Tunics", "Sweaters",
+      "Hoodies", "Jeans", "Pants", "Leggings", "Skirts", "Palazzo", "Shorts",
+      "Ethnic Wear", "Shoes", "Caps", "Bags", "Watches", "Hairbands",
+      "Hair Accessories", "Socks", "Accessories"
+    ],
+    "Unisex": [
+      "T-Shirts", "Hoodies", "Sweatshirts", "Track Pants", "Joggers", "Shorts",
+      "Co-ords", "Activewear", "Shoes", "Caps", "Socks", "Bags", "Sunglasses",
+      "Scarves", "Watches", "Accessories"
+    ]
+  },
+
+  "colors": [
+    { "code": "black", "label": "Black", "hex": "#000000" },
+    { "code": "white", "label": "White", "hex": "#FFFFFF" },
+    { "code": "grey", "label": "Grey", "hex": "#6B7280" },
+    { "code": "navy-blue", "label": "Navy Blue", "hex": "#1E3A8A" },
+    { "code": "blue", "label": "Blue", "hex": "#3B82F6" },
+    { "code": "red", "label": "Red", "hex": "#EF4444" },
+    { "code": "maroon", "label": "Maroon", "hex": "#7F1D1D" },
+    { "code": "green", "label": "Green", "hex": "#22C55E" },
+    { "code": "olive", "label": "Olive", "hex": "#65A30D" },
+    { "code": "yellow", "label": "Yellow", "hex": "#EAB308" },
+    { "code": "pink", "label": "Pink", "hex": "#EC4899" },
+    { "code": "purple", "label": "Purple", "hex": "#8B5CF6" },
+    { "code": "brown", "label": "Brown", "hex": "#92400E" },
+    { "code": "beige", "label": "Beige", "hex": "#D4A574" },
+    { "code": "orange", "label": "Orange", "hex": "#F97316" },
+    { "code": "cream", "label": "Cream", "hex": "#FEF3C7" },
+    { "code": "teal", "label": "Teal", "hex": "#14B8A6" },
+    { "code": "coral", "label": "Coral", "hex": "#F87171" },
+    { "code": "mint", "label": "Mint", "hex": "#6EE7B7" },
+    { "code": "lavender", "label": "Lavender", "hex": "#C4B5FD" }
+  ],
+
+  "sizes": {
+    "alpha_standard": {
+      "id": "alpha_standard",
+      "label": "Standard Sizes (S-XXL)",
+      "sizes": [
+        { "code": "s", "display": "S" },
+        { "code": "m", "display": "M" },
+        { "code": "l", "display": "L" },
+        { "code": "xl", "display": "XL" },
+        { "code": "xxl", "display": "XXL" }
+      ]
+    },
+    "alpha_extended": {
+      "id": "alpha_extended",
+      "label": "Extended Sizes (XS-3XL)",
+      "sizes": [
+        { "code": "xs", "display": "XS" },
+        { "code": "s", "display": "S" },
+        { "code": "m", "display": "M" },
+        { "code": "l", "display": "L" },
+        { "code": "xl", "display": "XL" },
+        { "code": "xxl", "display": "XXL" },
+        { "code": "3xl", "display": "3XL" }
+      ]
+    },
+    "men_waist": {
+      "id": "men_waist",
+      "label": "Men's Waist Size (inches)",
+      "sizes": [
+        { "code": "28", "display": "28" },
+        { "code": "30", "display": "30" },
+        { "code": "32", "display": "32" },
+        { "code": "34", "display": "34" },
+        { "code": "36", "display": "36" },
+        { "code": "38", "display": "38" },
+        { "code": "40", "display": "40" }
+      ]
+    },
+    "women_waist": {
+      "id": "women_waist",
+      "label": "Women's Waist Size (inches)",
+      "sizes": [
+        { "code": "26", "display": "26" },
+        { "code": "28", "display": "28" },
+        { "code": "30", "display": "30" },
+        { "code": "32", "display": "32" },
+        { "code": "34", "display": "34" },
+        { "code": "36", "display": "36" },
+        { "code": "38", "display": "38" }
+      ]
+    },
+    "kids_age": {
+      "id": "kids_age",
+      "label": "Age-Based Sizes",
+      "sizes": [
+        { "code": "2-3y", "display": "2-3 Years" },
+        { "code": "4-5y", "display": "4-5 Years" },
+        { "code": "6-7y", "display": "6-7 Years" },
+        { "code": "8-9y", "display": "8-9 Years" },
+        { "code": "10-11y", "display": "10-11 Years" },
+        { "code": "12-13y", "display": "12-13 Years" },
+        { "code": "14-16y", "display": "14-16 Years" }
+      ]
+    },
+    "men_shoes": {
+      "id": "men_shoes",
+      "label": "Men's Shoe Size (UK)",
+      "sizes": [
+        { "code": "5", "display": "5" },
+        { "code": "6", "display": "6" },
+        { "code": "7", "display": "7" },
+        { "code": "8", "display": "8" },
+        { "code": "9", "display": "9" },
+        { "code": "10", "display": "10" },
+        { "code": "11", "display": "11" },
+        { "code": "12", "display": "12" }
+      ]
+    },
+    "women_shoes": {
+      "id": "women_shoes",
+      "label": "Women's Shoe Size (UK)",
+      "sizes": [
+        { "code": "3", "display": "3" },
+        { "code": "4", "display": "4" },
+        { "code": "5", "display": "5" },
+        { "code": "6", "display": "6" },
+        { "code": "7", "display": "7" },
+        { "code": "8", "display": "8" },
+        { "code": "9", "display": "9" }
+      ]
+    }
+  },
+
+  "materials": [
+    { "code": "cotton", "label": "Cotton" },
+    { "code": "polyester", "label": "Polyester" },
+    { "code": "cotton-blend", "label": "Cotton Blend" },
+    { "code": "denim", "label": "Denim" },
+    { "code": "rayon", "label": "Rayon" },
+    { "code": "linen", "label": "Linen" },
+    { "code": "viscose", "label": "Viscose" },
+    { "code": "nylon", "label": "Nylon" },
+    { "code": "wool", "label": "Wool" },
+    { "code": "acrylic", "label": "Acrylic" },
+    { "code": "leather", "label": "Leather" },
+    { "code": "silk", "label": "Silk" },
+    { "code": "chiffon", "label": "Chiffon" },
+    { "code": "lycra", "label": "Lycra" },
+    { "code": "spandex", "label": "Spandex" },
+    { "code": "georgette", "label": "Georgette" },
+    { "code": "crepe", "label": "Crepe" },
+    { "code": "modal", "label": "Modal" }
+  ],
+
+  "fits": [
+    { "code": "slim", "label": "Slim Fit" },
+    { "code": "regular", "label": "Regular Fit" },
+    { "code": "relaxed", "label": "Relaxed Fit" },
+    { "code": "oversized", "label": "Oversized" },
+    { "code": "tailored", "label": "Tailored Fit" },
+    { "code": "skinny", "label": "Skinny Fit" },
+    { "code": "straight", "label": "Straight Fit" },
+    { "code": "bootcut", "label": "Bootcut" },
+    { "code": "loose", "label": "Loose Fit" }
+  ],
+
+  "occasions": [
+    { "code": "casual", "label": "Casual" },
+    { "code": "formal", "label": "Formal" },
+    { "code": "party", "label": "Party" },
+    { "code": "sports", "label": "Sports/Gym" },
+    { "code": "festive", "label": "Festive" },
+    { "code": "ethnic", "label": "Ethnic" },
+    { "code": "loungewear", "label": "Loungewear" },
+    { "code": "work", "label": "Work/Office" },
+    { "code": "wedding", "label": "Wedding" },
+    { "code": "beach", "label": "Beach/Vacation" },
+    { "code": "travel", "label": "Travel" },
+    { "code": "date-night", "label": "Date Night" }
+  ],
+
+  "patterns": [
+    { "code": "solid", "label": "Solid" },
+    { "code": "striped", "label": "Striped" },
+    { "code": "checked", "label": "Checked" },
+    { "code": "floral", "label": "Floral" },
+    { "code": "graphic", "label": "Graphic Print" },
+    { "code": "printed", "label": "Printed" },
+    { "code": "textured", "label": "Textured" },
+    { "code": "polka-dots", "label": "Polka Dots" },
+    { "code": "geometric", "label": "Geometric" },
+    { "code": "abstract", "label": "Abstract" },
+    { "code": "animal-print", "label": "Animal Print" },
+    { "code": "tie-dye", "label": "Tie & Dye" }
+  ],
+
+  "neckTypes": [
+    { "code": "round-neck", "label": "Round Neck" },
+    { "code": "v-neck", "label": "V-Neck" },
+    { "code": "collar", "label": "Collar" },
+    { "code": "mandarin", "label": "Mandarin Collar" },
+    { "code": "high-neck", "label": "High Neck" },
+    { "code": "boat-neck", "label": "Boat Neck" },
+    { "code": "scoop-neck", "label": "Scoop Neck" },
+    { "code": "off-shoulder", "label": "Off Shoulder" },
+    { "code": "halter", "label": "Halter Neck" }
+  ],
+
+  "sleeveTypes": [
+    { "code": "full-sleeve", "label": "Full Sleeve" },
+    { "code": "half-sleeve", "label": "Half Sleeve" },
+    { "code": "sleeveless", "label": "Sleeveless" },
+    { "code": "three-quarter", "label": "3/4 Sleeve" },
+    { "code": "cap-sleeve", "label": "Cap Sleeve" },
+    { "code": "bell-sleeve", "label": "Bell Sleeve" },
+    { "code": "puff-sleeve", "label": "Puff Sleeve" }
+  ],
+
+  "lengths": [
+    { "code": "crop", "label": "Crop" },
+    { "code": "regular", "label": "Regular" },
+    { "code": "longline", "label": "Longline" },
+    { "code": "mini", "label": "Mini" },
+    { "code": "midi", "label": "Midi" },
+    { "code": "maxi", "label": "Maxi" },
+    { "code": "knee-length", "label": "Knee Length" },
+    { "code": "ankle-length", "label": "Ankle Length" }
+  ],
+
+  "seasons": [
+    { "code": "summer", "label": "Summer" },
+    { "code": "winter", "label": "Winter" },
+    { "code": "monsoon", "label": "Monsoon" },
+    { "code": "all-season", "label": "All Season" },
+    { "code": "spring", "label": "Spring" },
+    { "code": "autumn", "label": "Autumn" }
+  ],
+
+  "brands": [
+    "Nike", "Adidas", "Puma", "Reebok", "Under Armour",
+    "H&M", "Zara", "Uniqlo", "Forever 21", "Mango",
+    "Levi's", "Wrangler", "Lee", "Pepe Jeans", "Flying Machine",
+    "Allen Solly", "Van Heusen", "Peter England", "Louis Philippe", "Arrow",
+    "Roadster", "HERE&NOW", "Hrx", "Kook N Keech", "WROGN",
+    "Pothys", "Fabindia", "W", "Global Desi", "Biba",
+    "Aurelia", "Vishudh", "Libas", "Sangria", "Juniper",
+    "Blackberrys", "Park Avenue", "Raymond", "Zodiac", "ColorPlus",
+    "United Colors of Benetton", "Tommy Hilfiger", "Calvin Klein", "Polo Ralph Lauren",
+    "Jack & Jones", "Vero Moda", "Only", "Selected", "Superdry",
+    "Marks & Spencer", "Next", "Esprit", "Promod", "C&A"
+  ],
+
+  "gstRates": {
+    "5%": ["Books", "Footwear under ₹1000", "Textiles", "Spices", "Tea", "Coffee"],
+    "12%": ["Footwear ₹1000-₹5000", "Umbrella", "Ayurvedic medicines"],
+    "18%": ["Footwear above ₹5000", "Leather goods", "Cosmetics", "Soaps", "Hair oil"],
+    "28%": ["Luxury items", "High-end cosmetics"]
+  },
+
+  "hsnCodes": {
+    "Apparel (Cotton)": "5209-5212",
+    "Apparel (Man-made fibers)": "5407-5408",
+    "Footwear": "6401-6405",
+    "Leather goods": "4201-4206",
+    "Bags & Luggage": "4202",
+    "Headgear": "6501-6507",
+    "Umbrellas": "6601",
+    "Jewelry (Precious metals)": "7113-7118",
+    "Jewelry (Imitation)": "7117",
+    "Watches": "9101-9109",
+    "Sunglasses": "9004"
+  },
+
+  "returnPolicies": [
+    { "code": "7-days-replacement", "label": "7 Days Replacement" },
+    { "code": "10-days-return", "label": "10 Days Return" },
+    { "code": "15-days-return", "label": "15 Days Return" },
+    { "code": "30-days-return", "label": "30 Days Return" },
+    { "code": "no-return", "label": "No Return/Exchange" }
+  ],
+
+  "countryOfOrigin": [
+    { "code": "IN", "label": "India" },
+    { "code": "CN", "label": "China" },
+    { "code": "BD", "label": "Bangladesh" },
+    { "code": "VN", "label": "Vietnam" },
+    { "code": "TH", "label": "Thailand" },
+    { "code": "ID", "label": "Indonesia" },
+    { "code": "TR", "label": "Turkey" },
+    { "code": "IT", "label": "Italy" },
+    { "code": "US", "label": "United States" },
+    { "code": "OTHER", "label": "Other" }
+  ],
+
+  "clothingTypes": {
+    "Shirts": ["Formal", "Casual", "Oxford", "Flannel", "Linen", "Denim"],
+    "T-Shirts": ["Basic", "Graphic", "Polo", "Henley", "Tank Top", "V-Neck"],
+    "Jeans": ["Skinny", "Slim", "Regular", "Straight", "Bootcut", "Flare"],
+    "Dresses": ["A-Line", "Bodycon", "Maxi", "Mini", "Midi", "Wrap", "Shift"],
+    "Footwear": ["Sneakers", "Formal Shoes", "Sandals", "Boots", "Flats", "Heels"]
+  },
+
+  "sizeRequirements": {
+    "requiresSizes": ["T-Shirts", "Shirts", "Jeans", "Dresses", "Shoes", "Innerwear"],
+    "noSizeRequired": ["Sarees", "Dupattas", "Scarves", "Belts", "Jewelry", "Bags", "Wallets"]
+  },
+
+  "filterAttributes": {
+    "price": { "type": "range", "label": "Price Range" },
+    "brand": { "type": "multiselect", "label": "Brand" },
+    "color": { "type": "multiselect", "label": "Color" },
+    "size": { "type": "multiselect", "label": "Size" },
+    "material": { "type": "multiselect", "label": "Material" },
+    "fit": { "type": "multiselect", "label": "Fit" },
+    "occasion": { "type": "multiselect", "label": "Occasion" },
+    "pattern": { "type": "multiselect", "label": "Pattern" },
+    "rating": { "type": "range", "label": "Customer Rating" },
+    "discount": { "type": "range", "label": "Discount %" }
+  },
+
+  "productStatuses": [
+    { "code": "PENDING_APPROVAL", "label": "Pending Approval" },
+    { "code": "APPROVED", "label": "Approved" },
+    { "code": "ACTIVE", "label": "Active" },
+    { "code": "INACTIVE", "label": "Inactive" },
+    { "code": "HIDDEN", "label": "Hidden" },
+    { "code": "REJECTED", "label": "Rejected" },
+    { "code": "DRAFT", "label": "Draft" }
+  ],
+
+  "sortOptions": [
+    { "code": "popularity", "label": "Popularity" },
+    { "code": "newest", "label": "What's New" },
+    { "code": "price-low-high", "label": "Price: Low to High" },
+    { "code": "price-high-low", "label": "Price: High to Low" },
+    { "code": "rating", "label": "Customer Rating" },
+    { "code": "discount", "label": "Better Discount" },
+    { "code": "name-asc", "label": "Name A-Z" },
+    { "code": "name-desc", "label": "Name Z-A" }
+  ],
+
+  "paymentMethods": [
+    { "code": "cod", "label": "Cash on Delivery" },
+    { "code": "upi", "label": "UPI" },
+    { "code": "card", "label": "Credit/Debit Card" },
+    { "code": "netbanking", "label": "Net Banking" },
+    { "code": "wallet", "label": "Digital Wallet" },
+    { "code": "emi", "label": "EMI" }
+  ],
+
+  "shippingMethods": [
+    { "code": "standard", "label": "Standard Delivery", "days": "5-7 business days" },
+    { "code": "express", "label": "Express Delivery", "days": "2-3 business days" },
+    { "code": "same-day", "label": "Same Day Delivery", "days": "Within 24 hours" },
+    { "code": "pickup", "label": "Store Pickup", "days": "Ready in 2 hours" }
+  ],
+
+  "orderStatuses": [
+    { "code": "PENDING", "label": "Order Placed" },
+    { "code": "CONFIRMED", "label": "Order Confirmed" },
+    { "code": "PROCESSING", "label": "Processing" },
+    { "code": "SHIPPED", "label": "Shipped" },
+    { "code": "OUT_FOR_DELIVERY", "label": "Out for Delivery" },
+    { "code": "DELIVERED", "label": "Delivered" },
+    { "code": "CANCELLED", "label": "Cancelled" },
+    { "code": "RETURNED", "label": "Returned" },
+    { "code": "REFUNDED", "label": "Refunded" }
+  ],
+
+  "meta": {
+    "description": "FlashGo Product Attributes Configuration",
+    "usage": "This file contains all product attributes, categories, sizes, and configurations used throughout the FlashGo e-commerce platform.",
+    "endpoints": {
+      "categories": "Use categories object to populate gender-based category dropdowns",
+      "sizes": "Use sizes object to get size configurations for different product types",
+      "colors": "Use colors array for color picker components",
+      "materials": "Use materials array for material selection dropdowns",
+      "filters": "Use filterAttributes for search/filter implementations"
+    },
+    "notes": [
+      "All codes should be used as keys/values in forms and APIs",
+      "Labels should be used for display purposes",
+      "Size requirements depend on category - check sizeRequirements object",
+      "HSN codes and GST rates are for Indian tax compliance",
+      "Color hex codes are provided for consistent UI representation"
+    ]
+  }
+}
