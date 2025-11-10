@@ -23,12 +23,12 @@
       "Sweaters", "Hoodies", "Jeans", "Trousers", "Leggings", "Jeggings",
       "Palazzo", "Skirts", "Shorts", "Innerwear", "Shoes", "Jewelry",
       "Handbags", "Belts", "Sunglasses", "Hair Accessories", "Dupattas",
-      "Watches", "Rings", "Bangles", "Bags", "Socks", "Accessories"
+      "Watches", "Rings", "Bangles", "Bags", "Socks", "Accessories" , "Shrugs" , "Frocks" , "Nightwear" 
     ],
     "Boy": [
       "T-Shirts", "Shirts", "Kurtas", "Sweatshirts", "Hoodies", "Jeans", "Pants",
       "Shorts", "Track Pants", "Ethnic Wear", "Shoes", "Caps", "Bags",
-      "Watches", "Hairbands", "Socks", "Accessories"
+      "Watches", "Hairbands", "Socks", "Accessories" , "Jackets" , "Blazers" , "Tracksuits"
     ],
     "Girl": [
       "T-Shirts", "Tops", "Dresses", "Frocks", "Kurtis", "Tunics", "Sweaters",
@@ -39,8 +39,7 @@
     "Unisex": [
       "T-Shirts", "Hoodies", "Sweatshirts", "Track Pants", "Joggers", "Shorts",
       "Co-ords", "Activewear", "Shoes", "Caps", "Socks", "Bags", "Sunglasses",
-      "Scarves", "Watches", "Accessories"
-    ]
+      "Scarves", "Watches", "Accessories" , "Belts" , "Shoes" , "Masks"    ]
   },
 
   "colors": [
