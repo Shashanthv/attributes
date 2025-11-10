@@ -15,7 +15,7 @@
       "T-Shirts", "Shirts", "Kurtas", "Jackets", "Blazers", "Sweaters", "Hoodies", "Co-ords", "Suits",
       "Jeans", "Trousers", "Chinos", "Shorts", "Joggers", "Track Pants", "Tracksuits", "Cargo Pants", "Winter Wear",
       "Innerwear", "Vests", "Boxers", "Shoes", "Belts", "Caps", "Watches", "Nightwear", "Coats", "Sports Wear",
-      "Sunglasses", "Wallets", "Ties", "Bags", "Socks", "Perfumes", "Accessories"
+      "Sunglasses", "Wallets", "Ties", "Bags", "Socks", "Perfumes", "Accessories","Formal Shirts"
     ],
     "Women": [
       "T-Shirts", "Tops", "Shirts", "Blouses", "Crop Tops", "Kurtis", "Tunics", "Co-ords", "Coats", "Winter Wear",
@@ -23,7 +23,7 @@
       "Sweaters", "Hoodies", "Jeans", "Trousers", "Leggings", "Jeggings", "Nightwear", "Jumpsuits", "Tracksuits",
       "Palazzo", "Skirts", "Shorts", "Innerwear", "Shoes", "Heels", "Flats", "Boots", "Jewelry", "Jackets",  
       "Handbags", "Belts", "Sunglasses", "Hair Accessories", "Dupattas", "Sweatshirts", "Track pants", "Sports Wear",
-      "Watches", "Rings", "Bangles", "Bags", "Socks", "Perfumes", "Makeup", "Accessories"
+      "Watches", "Rings", "Bangles", "Bags", "Socks", "Perfumes", "Makeup", "Accessories","sandals"
     ],
     "Boy": [
       "T-Shirts", "Shirts", "Kurtas", "Sweatshirts", "Hoodies", "Jeans", "Pants", "Sweaters",
