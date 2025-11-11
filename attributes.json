@@ -12,12 +12,13 @@
 
   "categories": {
     "Men": [
-      "T-Shirts", "Shirts", "Kurtas", "Jackets", "Blazers", "Sweaters", "Hoodies",
-      "Jeans", "Trousers", "Chinos", "Shorts", "Joggers", "Track Pants",
-      "Innerwear", "Vests", "Boxers", "Shoes", "Belts", "Caps", "Watches",
-      "Sunglasses", "Wallets", "Ties", "Bags", "Socks", "Accessories"
+      "T-Shirts", "Shirts", "Kurtas", "Jackets", "Blazers", "Sweaters", "Hoodies", "Co-ords", "Suits",
+      "Jeans", "Trousers", "Chinos", "Shorts", "Joggers", "Track Pants", "Tracksuits", "Cargo Pants", "Winter Wear",
+      "Innerwear", "Vests", "Boxers", "Shoes", "Belts", "Caps", "Watches", "Nightwear", "Coats", "Sports Wear",
+      "Sunglasses", "Wallets", "Ties", "Bags", "Socks", "Perfumes", "Accessories"
     ],
     "Women": [
+<<<<<<< HEAD
       "T-Shirts", "Tops", "Shirts", "Blouses", "Crop Tops", "Kurtis", "Tunics",
       "Dresses", "Gowns", "Sarees", "Saree Blouse", "Lehengas", "Salwar Suits",
       "Sweaters", "Hoodies", "Jeans", "Trousers", "Leggings", "Jeggings",
@@ -29,12 +30,25 @@
       "T-Shirts", "Shirts", "Kurtas", "Sweatshirts", "Hoodies", "Jeans", "Pants",
       "Shorts", "Track Pants", "Ethnic Wear", "Shoes", "Caps", "Bags",
       "Watches", "Hairbands", "Socks", "Accessories" , "Jackets" , "Blazers" , "Tracksuits"
+=======
+      "T-Shirts", "Tops", "Shirts", "Blouses", "Crop Tops", "Kurtis", "Tunics", "Co-ords", "Coats", "Winter Wear",
+      "Dresses", "Gowns", "Sarees", "Saree Blouse", "Lehengas", "Salwar Suits", "Shrugs", "Maternity Wear",
+      "Sweaters", "Hoodies", "Jeans", "Trousers", "Leggings", "Jeggings", "Nightwear", "Jumpsuits", "Tracksuits",
+      "Palazzo", "Skirts", "Shorts", "Innerwear", "Shoes", "Heels", "Flats", "Boots", "Jewelry", "Jackets",  
+      "Handbags", "Belts", "Sunglasses", "Hair Accessories", "Dupattas", "Sweatshirts", "Track pants", "Sports Wear",
+      "Watches", "Rings", "Bangles", "Bags", "Socks", "Perfumes", "Makeup", "Accessories"
+    ],
+    "Boy": [
+      "T-Shirts", "Shirts", "Kurtas", "Sweatshirts", "Hoodies", "Jeans", "Pants", "Sweaters",
+      "Shorts", "Track Pants", "Ethnic Wear", "Shoes", "Caps", "Bags", "Jackets", "Co-ords",
+      "Watches", "Hairbands", "Socks", "Nightwear", "Winter Wear", "Accessories"
+>>>>>>> f358c3c374826100614afe90c9c19d4ff60776cd
     ],
     "Girl": [
-      "T-Shirts", "Tops", "Dresses", "Frocks", "Kurtis", "Tunics", "Sweaters",
-      "Hoodies", "Jeans", "Pants", "Leggings", "Skirts", "Palazzo", "Shorts",
-      "Ethnic Wear", "Shoes", "Caps", "Bags", "Watches", "Hairbands",
-      "Hair Accessories", "Socks", "Accessories"
+      "T-Shirts", "Tops", "Dresses", "Frocks", "Kurtis", "Tunics", "Sweaters", "Jumpsuits", "Lehengas",
+      "Hoodies", "Jeans", "Pants", "Leggings", "Skirts", "Palazzo", "Shorts", "Co-ords",
+      "Ethnic Wear", "Shoes", "Caps", "Bags", "Watches", "Hairbands", "Jackets",
+      "Hair Accessories", "Socks", "Nightwear", "Winter Wear", "Accessories"
     ],
     "Unisex": [
       "T-Shirts", "Hoodies", "Sweatshirts", "Track Pants", "Joggers", "Shorts",
@@ -120,6 +134,8 @@
       "id": "kids_age",
       "label": "Age-Based Sizes",
       "sizes": [
+        { "code": "0-12m", "display": "0-12 Months" },
+        { "code": "1-2y", "display": "1-2 Years" },
         { "code": "2-3y", "display": "2-3 Years" },
         { "code": "4-5y", "display": "4-5 Years" },
         { "code": "6-7y", "display": "6-7 Years" },
@@ -175,6 +191,8 @@
     { "code": "lycra", "label": "Lycra" },
     { "code": "spandex", "label": "Spandex" },
     { "code": "georgette", "label": "Georgette" },
+    { "code": "velvet", "label": "Velvet" },
+    { "code": "satin", "label": "Satin" },
     { "code": "crepe", "label": "Crepe" },
     { "code": "modal", "label": "Modal" }
   ],
@@ -230,6 +248,9 @@
     { "code": "boat-neck", "label": "Boat Neck" },
     { "code": "scoop-neck", "label": "Scoop Neck" },
     { "code": "off-shoulder", "label": "Off Shoulder" },
+    { "code": "one-shoulder", "label": "One Shoulder" },
+    { "code": "turtle-neck", "label": "Turtle Neck" },
+    { "code": "square-neck", "label": "Square Neck" },
     { "code": "halter", "label": "Halter Neck" }
   ],
 
